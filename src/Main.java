@@ -68,9 +68,9 @@ class User implements Observer {
 
 class Main {
     public static void main(String[] args) {
-        Group gp=new Group("Паблик");
-        User user=new User(gp);
-        gp.post();
+       Group gp=new Group("Паблик");
+       User user=new User(gp);
+       gp.post();
         System.out.println(user.getPosts());
     }
 }
